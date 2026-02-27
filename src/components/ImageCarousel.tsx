@@ -23,7 +23,7 @@ export function ImageCarousel() {
             key={image.src}
             className={`absolute inset-0 transition-opacity duration-700 ${index === activeIndex ? 'opacity-100' : 'opacity-0'}`}
           >
-            <Image src={image.src} alt={image.alt} fill className="object-cover" sizes="100vw" priority={index === 0} />
+            <Image src={image.src} alt={image.alt} fill className="object-cover" sizes="100vw" priority={index === 0} unoptimized />
           </div>
         ))}
       </div>

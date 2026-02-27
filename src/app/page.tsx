@@ -39,6 +39,7 @@ export default function HomePage() {
           fill
           className="object-cover opacity-30"
           priority
+          unoptimized
         />
         <div className="section-container relative z-10 py-20">
           <p className="text-sm uppercase tracking-[0.2em] text-slate-200">Appalachian Roofing</p>

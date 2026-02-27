@@ -50,7 +50,7 @@ export default function ServicesPage() {
           <article key={service.title} className="grid items-center gap-8 rounded-2xl border border-slate-200 p-6 md:grid-cols-2">
             <div className={index % 2 === 1 ? 'md:order-2' : ''}>
               <div className="relative h-64 overflow-hidden rounded-xl">
-                <Image src={service.image} alt={service.title} fill className="object-cover" />
+                <Image src={service.image} alt={service.title} fill className="object-cover" unoptimized />
               </div>
             </div>
             <div>
