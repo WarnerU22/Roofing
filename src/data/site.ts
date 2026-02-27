@@ -13,16 +13,20 @@ export const siteConfig = {
 
 export const sliderImages = [
   {
-    src: 'https://images.unsplash.com/photo-1591825729269-caeb344f6df2?auto=format&fit=crop&w=1600&q=80',
-    alt: 'Roofing crew replacing shingles on a residential home'
+    src: 'https://images.unsplash.com/photo-1635424824849-1b09bdcc55b1?q=80&w=1600&auto=format&fit=crop',
+    alt: 'Roofing crew working on an elevated roof repair project'
   },
   {
-    src: 'https://images.unsplash.com/photo-1523413651479-597eb2da0ad6?auto=format&fit=crop&w=1600&q=80',
-    alt: 'Contractor inspecting a roof for storm damage'
+    src: 'https://images.unsplash.com/photo-1635424709845-3a85ad5e1f5e?q=80&w=1600&auto=format&fit=crop',
+    alt: 'Professional roofers replacing shingles on a residential property'
   },
   {
-    src: 'https://images.unsplash.com/photo-1632778149955-e80f8ceca2e8?auto=format&fit=crop&w=1600&q=80',
-    alt: 'Completed modern asphalt shingle roof at sunset'
+    src: 'https://images.unsplash.com/photo-1635424709870-cdc6e64f0e20?q=80&w=1600&auto=format&fit=crop',
+    alt: 'Close-up of roof repair work with safety equipment and tools'
+  },
+  {
+    src: 'https://images.unsplash.com/photo-1635424710918-d5c138981922?q=80&w=1600&auto=format&fit=crop',
+    alt: 'Roofing specialists completing a premium residential repair'
   }
 ];
 

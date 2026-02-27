@@ -12,28 +12,28 @@ const detailedServices = [
     description:
       'When your roof reaches the end of its lifespan, we provide complete tear-off and replacement with premium asphalt shingles and metal roofing options.',
     image:
-      'https://images.unsplash.com/photo-1597007395734-2f0d8f0f24ed?auto=format&fit=crop&w=1200&q=80'
+      'https://media.istockphoto.com/id/2218821546/photo/morning-aerial-view-of-residential-community-in-utah-usa.jpg?s=2048x2048&w=is&k=20&c=q0wcacLumZ2Ih_COrXZKQl1lpkpWwiz8Pj0Qgbz92QA='
   },
   {
     title: 'Roof Repair',
     description:
       'From missing shingles to flashing failures, our technicians quickly identify problem areas and perform durable repairs to prevent costly damage.',
     image:
-      'https://images.unsplash.com/photo-1605146769289-440113cc3d00?auto=format&fit=crop&w=1200&q=80'
+      'https://images.unsplash.com/photo-1635424709845-3a85ad5e1f5e?q=80&w=1600&auto=format&fit=crop'
   },
   {
     title: 'Roof Inspection',
     description:
       'Our detailed inspections include structural review, material condition checks, moisture risk evaluation, and documented recommendations.',
     image:
-      'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80'
+      'https://images.unsplash.com/photo-1635424709870-cdc6e64f0e20?q=80&w=1600&auto=format&fit=crop'
   },
   {
     title: 'Storm Damage Repair',
     description:
       'After severe weather, we provide emergency tarping, fast damage assessments, and complete restoration support to secure your property.',
     image:
-      'https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80'
+      'https://images.unsplash.com/photo-1634853982486-c06f0e17940f?q=80&w=1600&auto=format&fit=crop'
   }
 ];
 

@@ -70,3 +70,19 @@ src/
   data/
     site.ts
 ```
+
+## Deployment (Vercel)
+
+1. Push this repository to GitHub.
+2. In Vercel, click **New Project** and import the repository.
+3. Framework preset should auto-detect as **Next.js**.
+4. Keep default build settings:
+   - Build command: `npm run build`
+   - Output directory: `.next`
+5. Click **Deploy**.
+
+## Customization Notes
+
+- Replace Unsplash placeholder image URLs in `src/data/site.ts` and page files as needed.
+- Update contact details and social links in `src/data/site.ts` and `src/components/Footer.tsx`.
+- Connect the contact form in `src/app/contact/page.tsx` to your preferred backend/API endpoint.
