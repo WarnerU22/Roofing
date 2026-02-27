@@ -34,7 +34,7 @@ export default function HomePage() {
     <>
       <section className="relative isolate flex min-h-[75vh] items-center overflow-hidden bg-brand-navy text-white">
         <Image
-          src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=1920&auto=format&fit=crop&q=80"
+          src="https://images.unsplash.com/photo-1632903086580-67f5f7682f96?auto=format&fit=crop&w=1800&q=80"
           alt="Professional roofer working on residential roof"
           fill
           className="object-cover opacity-30"

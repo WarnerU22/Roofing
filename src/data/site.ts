@@ -13,16 +13,16 @@ export const siteConfig = {
 
 export const sliderImages = [
   {
-    src: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1600&auto=format&fit=crop&q=80',
-    alt: 'Roof installation team working on a new roof system'
+    src: 'https://images.unsplash.com/photo-1591825729269-caeb344f6df2?auto=format&fit=crop&w=1600&q=80',
+    alt: 'Roofing crew replacing shingles on a residential home'
   },
   {
-    src: 'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=1600&auto=format&fit=crop&q=80',
-    alt: 'Modern residential home with a professionally finished roof'
+    src: 'https://images.unsplash.com/photo-1523413651479-597eb2da0ad6?auto=format&fit=crop&w=1600&q=80',
+    alt: 'Contractor inspecting a roof for storm damage'
   },
   {
-    src: 'https://images.unsplash.com/photo-1597001841415-5a7d5e0cdbd4?w=1600&auto=format&fit=crop&q=80',
-    alt: 'Roofer working carefully on shingles during a repair project'
+    src: 'https://images.unsplash.com/photo-1632778149955-e80f8ceca2e8?auto=format&fit=crop&w=1600&q=80',
+    alt: 'Completed modern asphalt shingle roof at sunset'
   }
 ];
 
