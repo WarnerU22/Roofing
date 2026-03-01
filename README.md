@@ -1,52 +1,57 @@
 # Appalachian Roofing Website
 
-A production-ready, responsive marketing website for **Appalachian Roofing**, built with **Next.js 14**, **TypeScript**, and **Tailwind CSS**.
-
-## Features
-
-- Modern, responsive UI with sticky navigation and mobile menu
-- Homepage with hero, image carousel, service highlights, testimonials, and CTA banner
-- Dedicated Services, About, and Contact pages
-- Contact form ready for backend integration
-- SEO-friendly metadata, robots, and sitemap routes
-- Optimized image handling via `next/image`
-- Vercel-ready project setup
+A modern marketing website for a high-end roof repair company, built for performance, clarity, and production deployment.
 
 ## Tech Stack
 
 - Next.js 14 (App Router)
 - TypeScript
 - Tailwind CSS
-- Lucide React icons
 
-## Getting Started
+## Features
 
-### 1. Install dependencies
+- Professional, responsive marketing pages (Home, Services, About, Contact)
+- Homepage hero and image slider showcasing roofing work
+- Contact page with a structured, backend-ready form
+- Sticky navigation with mobile menu
+- SEO essentials with metadata, `robots.txt`, and `sitemap.xml`
+- Optimized image delivery through `next/image` with external host allow-listing
+
+## Setup
+
+### 1) Install dependencies
 
 ```bash
 npm install
 ```
 
-### 2. Run the development server
+### 2) Run the development server
 
 ```bash
 npm run dev
 ```
 
-Visit [http://localhost:3000](http://localhost:3000).
+Open [http://localhost:3000](http://localhost:3000).
 
-### 3. Lint the project
+### 3) Lint
 
 ```bash
 npm run lint
 ```
 
-### 4. Create a production build
+### 4) Build for production
 
 ```bash
 npm run build
+```
+
+### 5) Start production server locally
+
+```bash
 npm run start
 ```
+
+
 
 ## Project Structure
 
@@ -70,19 +75,3 @@ src/
   data/
     site.ts
 ```
-
-## Deployment (Vercel)
-
-1. Push this repository to GitHub.
-2. In Vercel, click **New Project** and import the repository.
-3. Framework preset should auto-detect as **Next.js**.
-4. Keep default build settings:
-   - Build command: `npm run build`
-   - Output directory: `.next`
-5. Click **Deploy**.
-
-## Customization Notes
-
-- Replace Unsplash placeholder image URLs in `src/data/site.ts` and page files as needed.
-- Update contact details and social links in `src/data/site.ts` and `src/components/Footer.tsx`.
-- Connect the contact form in `src/app/contact/page.tsx` to your preferred backend/API endpoint.
