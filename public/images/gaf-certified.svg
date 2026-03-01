@@ -1,0 +1,11 @@
+<svg width="420" height="420" viewBox="0 0 420 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="210,8 412,210 210,412 8,210" fill="#D0D3D4"/>
+  <polygon points="8,210 210,412 188,412 0,224" fill="#E21221"/>
+  <polygon points="412,210 210,412 232,412 420,224" fill="#C1121F"/>
+  <rect x="170" y="64" width="80" height="80" fill="#E21221"/>
+  <text x="210" y="117" text-anchor="middle" fill="white" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="34">GAF</text>
+  <text x="210" y="216" text-anchor="middle" fill="#114085" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="54">CERTIFIED</text>
+  <path d="M158 272L180 246H231L263 278H206L168 233L141 267" stroke="#114085" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="127" y="375" transform="rotate(45 127 375)" fill="white" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="20">RESIDENTIAL</text>
+  <text x="292" y="375" transform="rotate(-45 292 375)" fill="white" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="16">ROOFING CONTRACTOR</text>
+</svg>

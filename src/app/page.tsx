@@ -77,6 +77,27 @@ export default function HomePage() {
         </div>
       </section>
 
+      <section className="section-container py-16">
+        <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-soft">
+          <div className="grid items-center gap-6 md:grid-cols-[180px_1fr]">
+            <Image
+              src="/images/gaf-certified.svg"
+              alt="GAF Certified Residential Roofing Contractor badge"
+              width={160}
+              height={160}
+              className="mx-auto h-36 w-36 md:mx-0"
+            />
+            <div>
+              <h2 className="text-2xl font-bold text-brand-navy">Certified by GAF</h2>
+              <p className="mt-2 text-slate-600">
+                Appalachian Roofing LLC is proud to showcase its GAF Certified status for residential roofing projects,
+                giving homeowners confidence in our workmanship and material standards.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="section-container py-20">
         <h2 className="text-center text-3xl font-bold text-brand-navy">What Homeowners Say</h2>
         <div className="mt-10 grid gap-6 md:grid-cols-3">
