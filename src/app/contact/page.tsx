@@ -57,9 +57,16 @@ export default function ContactPage() {
           </div>
 
           <div className="rounded-2xl border border-dashed border-slate-300 bg-slate-50 p-6">
-            <h2 className="text-xl font-semibold text-brand-navy">Google Maps Placeholder</h2>
-            <div className="mt-4 flex h-64 items-center justify-center rounded-xl border border-slate-200 bg-white text-sm text-slate-500">
-              Embed Google Maps iframe here when location profile is finalized.
+            <h2 className="text-xl font-semibold text-brand-navy">Service Location</h2>
+            <p className="mt-2 text-sm text-slate-600">820 County Rd 48, Calhoun, TN 37309</p>
+            <div className="mt-4 overflow-hidden rounded-xl border border-slate-200 bg-white">
+              <iframe
+                title="Appalachian Roofing LLC location map"
+                src="https://maps.google.com/maps?q=820%20County%20Rd%2048%2C%20Calhoun%2C%20TN%2037309&t=&z=14&ie=UTF8&iwloc=&output=embed"
+                className="h-64 w-full"
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              />
             </div>
           </div>
         </div>
