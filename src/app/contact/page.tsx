@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import { siteConfig } from '@/data/site';
 
 export const metadata: Metadata = {
-  title: 'Contact Appalachian Roofing',
-  description: 'Request a free roofing quote or schedule an inspection with Appalachian Roofing.'
+  title: 'Contact Appalachian Roofing LLC',
+  description: 'Request a free roofing quote or schedule an inspection with Appalachian Roofing LLC.'
 };
 
 export default function ContactPage() {
@@ -49,9 +49,11 @@ export default function ContactPage() {
         <div className="space-y-6">
           <div className="rounded-2xl border border-slate-200 p-6">
             <h2 className="text-xl font-semibold text-brand-navy">Business Information</h2>
-            <p className="mt-3 text-slate-600">{siteConfig.address}</p>
+            <p className="mt-3 text-slate-600">{siteConfig.streetAddress}</p>
+            <p className="mt-1 text-slate-600">{siteConfig.cityStateZip}</p>
             <p className="mt-1 text-slate-600">{siteConfig.phone}</p>
             <p className="mt-1 text-slate-600">{siteConfig.email}</p>
+            <p className="mt-1 text-slate-600">{siteConfig.serviceArea}</p>
           </div>
 
           <div className="rounded-2xl border border-dashed border-slate-300 bg-slate-50 p-6">

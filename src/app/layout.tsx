@@ -7,10 +7,10 @@ import { Footer } from '@/components/Footer';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Appalachian Roofing | Trusted Roofing Experts',
+  title: 'Appalachian Roofing LLC | Trusted Roofing Experts',
   description:
-    'Appalachian Roofing provides reliable roof replacement, repair, inspection, and storm damage services for residential and commercial properties.',
-  keywords: ['roofing', 'roof repair', 'roof replacement', 'storm damage', 'Appalachian Roofing']
+    'Appalachian Roofing LLC provides reliable roof replacement, repair, inspection, and storm damage services for residential and commercial properties.',
+  keywords: ['roofing', 'roof repair', 'roof replacement', 'storm damage', 'Appalachian Roofing LLC']
 };
 
 export default function RootLayout({

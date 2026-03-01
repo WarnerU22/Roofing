@@ -42,7 +42,7 @@ export default function HomePage() {
           sizes="100vw"
         />
         <div className="section-container relative z-10 py-20">
-          <p className="text-sm uppercase tracking-[0.2em] text-slate-200">Appalachian Roofing</p>
+          <p className="text-sm uppercase tracking-[0.2em] text-slate-200">Appalachian Roofing LLC</p>
           <h1 className="mt-4 max-w-3xl text-4xl font-bold leading-tight sm:text-5xl md:text-6xl">
             Reliable Roofing Built for Appalachian Weather
           </h1>

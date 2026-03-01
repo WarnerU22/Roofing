@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
@@ -10,9 +11,9 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-slate-200 bg-white/95 backdrop-blur">
-      <div className="section-container flex h-16 items-center justify-between">
-        <Link href="/" className="text-xl font-bold text-brand-navy">
-          Appalachian Roofing
+      <div className="section-container flex h-20 items-center justify-between">
+        <Link href="/" className="flex items-center gap-3">
+          <Image src="/images/logo.svg" alt="Appalachian Roofing LLC logo" width={180} height={52} priority className="h-12 w-auto" />
         </Link>
 
         <nav className="hidden items-center gap-6 md:flex">

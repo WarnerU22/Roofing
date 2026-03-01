@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'About Appalachian Roofing',
-  description: 'Learn about Appalachian Roofing, our mission, values, and commitment to exceptional workmanship.'
+  title: 'About Appalachian Roofing LLC',
+  description: 'Learn about Appalachian Roofing LLC, our mission, values, and commitment to exceptional workmanship.'
 };
 
 const trustPoints = [
@@ -17,9 +17,9 @@ export default function AboutPage() {
     <section className="section-container py-16 md:py-20">
       <div className="grid gap-12 lg:grid-cols-[1.3fr_1fr]">
         <div>
-          <h1 className="text-4xl font-bold text-brand-navy">About Appalachian Roofing</h1>
+          <h1 className="text-4xl font-bold text-brand-navy">About Appalachian Roofing LLC</h1>
           <p className="mt-6 leading-8 text-slate-600">
-            Appalachian Roofing was founded with one mission: deliver durable, honest, and expertly crafted roofing solutions to local homeowners and business owners. We focus on clear communication, safe work practices, and quality that lasts.
+            Appalachian Roofing LLC was founded with one mission: deliver durable, honest, and expertly crafted roofing solutions to local homeowners and business owners. As a locally owned company based in Cleveland, Tennessee, we focus on clear communication, safe work practices, and quality that lasts.
           </p>
           <p className="mt-4 leading-8 text-slate-600">
             Our team has experience across roof replacement, preventative maintenance, inspections, and storm damage restoration. We take pride in helping clients make informed decisions while protecting their most valuable investments.

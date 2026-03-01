@@ -2,8 +2,8 @@ import Image from 'next/image';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Roofing Services | Appalachian Roofing',
-  description: 'Explore roof replacement, repair, inspection, and storm restoration services from Appalachian Roofing.'
+  title: 'Roofing Services | Appalachian Roofing LLC',
+  description: 'Explore roof replacement, repair, inspection, and storm restoration services from Appalachian Roofing LLC.'
 };
 
 const detailedServices = [

@@ -1,8 +1,10 @@
 export const siteConfig = {
-  name: 'Appalachian Roofing',
-  phone: '(555) 123-9876',
-  email: 'contact@appalachianroofing.com',
-  address: '123 Mountain View Drive, Asheville, NC 28801',
+  name: 'Appalachian Roofing LLC',
+  phone: '423-336-3500',
+  email: 'RayMiller@AppRoofLLC.com',
+  streetAddress: '820 County Rd 48',
+  cityStateZip: 'Calhoun, TN 37309',
+  serviceArea: 'Locally owned in Cleveland, TN',
   navLinks: [
     { label: 'Home', href: '/' },
     { label: 'Services', href: '/services' },
@@ -47,6 +49,6 @@ export const testimonials = [
     name: 'Sandra P.',
     quote:
       'Excellent communication and craftsmanship. Our home looks great and we have peace of mind.',
-    location: 'Asheville, NC'
+    location: 'Cleveland, TN'
   }
 ];

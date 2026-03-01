@@ -51,7 +51,14 @@ npm run build
 npm run start
 ```
 
+## Deployment
 
+This project is Vercel-ready.
+
+1. Push the repository to GitHub.
+2. Import the repository in Vercel.
+3. Confirm the framework is detected as **Next.js**.
+4. Deploy with default settings.
 
 ## Project Structure
 
